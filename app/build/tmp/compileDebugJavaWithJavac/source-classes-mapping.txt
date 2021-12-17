@@ -1,0 +1,152 @@
+edu/ucsd/calab/extrasensory/ui/SummaryFragment.java
+ edu.ucsd.calab.extrasensory.ui.SummaryFragment
+ edu.ucsd.calab.extrasensory.ui.SummaryFragment$SummaryItem
+ edu.ucsd.calab.extrasensory.ui.SummaryFragment$SummaryListAdapter
+edu/ucsd/calab/extrasensory/sensors/AudioProcessing/ESAudioProcessor.java
+ edu.ucsd.calab.extrasensory.sensors.AudioProcessing.ESAudioProcessor
+ edu.ucsd.calab.extrasensory.sensors.AudioProcessing.ESAudioProcessor$1
+edu/ucsd/calab/extrasensory/data/ESTimestamp.java
+ edu.ucsd.calab.extrasensory.data.ESTimestamp
+edu/ucsd/calab/extrasensory/ui/FeedbackActivity.java
+ edu.ucsd.calab.extrasensory.ui.FeedbackActivity
+ edu.ucsd.calab.extrasensory.ui.FeedbackActivity$1
+ edu.ucsd.calab.extrasensory.ui.FeedbackActivity$2
+ edu.ucsd.calab.extrasensory.ui.FeedbackActivity$2$1
+ edu.ucsd.calab.extrasensory.ui.FeedbackActivity$FeedbackParameters
+edu/ucsd/calab/extrasensory/ui/BaseActivity.java
+ edu.ucsd.calab.extrasensory.ui.BaseActivity
+ edu.ucsd.calab.extrasensory.ui.BaseActivity$1
+ edu.ucsd.calab.extrasensory.ui.BaseActivity$2
+ edu.ucsd.calab.extrasensory.ui.BaseActivity$3
+ edu.ucsd.calab.extrasensory.ui.BaseActivity$4
+ edu.ucsd.calab.extrasensory.ui.BaseActivity$5
+ edu.ucsd.calab.extrasensory.ui.BaseActivity$6
+edu/ucsd/calab/extrasensory/sensors/AudioProcessing/FFT.java
+ edu.ucsd.calab.extrasensory.sensors.AudioProcessing.FFT
+ edu.ucsd.calab.extrasensory.sensors.AudioProcessing.FFT$OutofborderException
+edu/ucsd/calab/extrasensory/network/AWSUtil.java
+ edu.ucsd.calab.extrasensory.network.AWSUtil
+ edu.ucsd.calab.extrasensory.network.AWSUtil$1
+edu/ucsd/calab/extrasensory/data/ESContinuousActivity.java
+ edu.ucsd.calab.extrasensory.data.ESContinuousActivity
+ edu.ucsd.calab.extrasensory.data.ESContinuousActivity$1
+edu/ucsd/calab/extrasensory/network/ESNetworkAccessor.java
+ edu.ucsd.calab.extrasensory.network.ESNetworkAccessor
+ edu.ucsd.calab.extrasensory.network.ESNetworkAccessor$1
+ edu.ucsd.calab.extrasensory.network.ESNetworkAccessor$2
+ edu.ucsd.calab.extrasensory.network.ESNetworkAccessor$3
+ edu.ucsd.calab.extrasensory.network.ESNetworkAccessor$4
+ edu.ucsd.calab.extrasensory.network.ESNetworkAccessor$ESApiHandler
+ edu.ucsd.calab.extrasensory.network.ESNetworkAccessor$ESApiHandler$1
+ edu.ucsd.calab.extrasensory.network.ESNetworkAccessor$ESApiHandler$API_TYPE
+ edu.ucsd.calab.extrasensory.network.ESNetworkAccessor$ESApiHandler$ESApiParams
+ edu.ucsd.calab.extrasensory.network.ESNetworkAccessor$ESFeedbackQueue
+ edu.ucsd.calab.extrasensory.network.ESNetworkAccessor$S3UploadDataTask
+edu/ucsd/calab/extrasensory/ui/HomeFragment.java
+ edu.ucsd.calab.extrasensory.ui.HomeFragment
+ edu.ucsd.calab.extrasensory.ui.HomeFragment$1
+ edu.ucsd.calab.extrasensory.ui.HomeFragment$2
+ edu.ucsd.calab.extrasensory.ui.HomeFragment$2$1
+edu/ucsd/calab/extrasensory/ESApplication.java
+ edu.ucsd.calab.extrasensory.ESApplication
+ edu.ucsd.calab.extrasensory.ESApplication$1
+ edu.ucsd.calab.extrasensory.ESApplication$DataForAlertForPastFeedback
+ edu.ucsd.calab.extrasensory.ESApplication$ESLifeCycleCallback
+ edu.ucsd.calab.extrasensory.ESApplication$PredeterminedLabels
+edu/ucsd/calab/extrasensory/conversationbackup/ArchivesActivity.java
+ edu.ucsd.calab.extrasensory.conversationbackup.ArchivesActivity
+ edu.ucsd.calab.extrasensory.conversationbackup.ArchivesActivity$ListEntity
+edu/ucsd/calab/extrasensory/ui/MainActivity.java
+ edu.ucsd.calab.extrasensory.ui.MainActivity
+ edu.ucsd.calab.extrasensory.ui.MainActivity$1
+ edu.ucsd.calab.extrasensory.ui.MainActivity$2
+ edu.ucsd.calab.extrasensory.ui.MainActivity$3
+ edu.ucsd.calab.extrasensory.ui.MainActivity$4
+ edu.ucsd.calab.extrasensory.ui.MainActivity$5
+ edu.ucsd.calab.extrasensory.ui.MainActivity$6
+edu/ucsd/calab/extrasensory/BuildConfig.java
+ edu.ucsd.calab.extrasensory.BuildConfig
+edu/ucsd/calab/extrasensory/conversationbackup/ConversationBackupActivity.java
+ edu.ucsd.calab.extrasensory.conversationbackup.ConversationBackupActivity
+ edu.ucsd.calab.extrasensory.conversationbackup.ConversationBackupActivity$1
+ edu.ucsd.calab.extrasensory.conversationbackup.ConversationBackupActivity$Perms
+edu/ucsd/calab/extrasensory/ui/BaseTabFragment.java
+ edu.ucsd.calab.extrasensory.ui.BaseTabFragment
+ edu.ucsd.calab.extrasensory.ui.BaseTabFragment$1
+edu/ucsd/calab/extrasensory/data/ESDataFilesAccessor.java
+ edu.ucsd.calab.extrasensory.data.ESDataFilesAccessor
+ edu.ucsd.calab.extrasensory.data.ESDataFilesAccessor$1
+ edu.ucsd.calab.extrasensory.data.ESDataFilesAccessor$2
+edu/ucsd/calab/extrasensory/ui/OnSwipeTouchListener.java
+ edu.ucsd.calab.extrasensory.ui.OnSwipeTouchListener
+ edu.ucsd.calab.extrasensory.ui.OnSwipeTouchListener$1
+ edu.ucsd.calab.extrasensory.ui.OnSwipeTouchListener$GestureListener
+edu/ucsd/calab/extrasensory/conversationbackup/ProcessingService.java
+ edu.ucsd.calab.extrasensory.conversationbackup.ProcessingService
+edu/ucsd/calab/extrasensory/ESIntentService.java
+ edu.ucsd.calab.extrasensory.ESIntentService
+edu/ucsd/calab/extrasensory/data/ESSettings.java
+ edu.ucsd.calab.extrasensory.data.ESSettings
+edu/ucsd/calab/extrasensory/data/ESDatabaseAccessor.java
+ edu.ucsd.calab.extrasensory.data.ESDatabaseAccessor
+ edu.ucsd.calab.extrasensory.data.ESDatabaseAccessor$1
+ edu.ucsd.calab.extrasensory.data.ESDatabaseAccessor$2
+ edu.ucsd.calab.extrasensory.data.ESDatabaseAccessor$ESDBHelper
+ edu.ucsd.calab.extrasensory.data.ESDatabaseAccessor$ESLabelType
+edu/ucsd/calab/extrasensory/conversationbackup/BaseCBActivity.java
+ edu.ucsd.calab.extrasensory.conversationbackup.BaseCBActivity
+edu/ucsd/calab/extrasensory/data/ESLabelStrings.java
+ edu.ucsd.calab.extrasensory.data.ESLabelStrings
+edu/ucsd/calab/extrasensory/ui/SelectionFromListActivity.java
+ edu.ucsd.calab.extrasensory.ui.SelectionFromListActivity
+ edu.ucsd.calab.extrasensory.ui.SelectionFromListActivity$1
+ edu.ucsd.calab.extrasensory.ui.SelectionFromListActivity$2
+ edu.ucsd.calab.extrasensory.ui.SelectionFromListActivity$ChoiceItem
+ edu.ucsd.calab.extrasensory.ui.SelectionFromListActivity$ChoicesListAdapter
+edu/ucsd/calab/extrasensory/data/ESLabelStruct.java
+ edu.ucsd.calab.extrasensory.data.ESLabelStruct
+edu/ucsd/calab/extrasensory/sensors/AudioProcessing/MFCC.java
+ edu.ucsd.calab.extrasensory.sensors.AudioProcessing.MFCC
+edu/ucsd/calab/extrasensory/data/ESDatabaseContract.java
+ edu.ucsd.calab.extrasensory.data.ESDatabaseContract
+ edu.ucsd.calab.extrasensory.data.ESDatabaseContract$ESActivityEntry
+ edu.ucsd.calab.extrasensory.data.ESDatabaseContract$ESSettingsEntry
+edu/ucsd/calab/extrasensory/ui/HistoryFragment.java
+ edu.ucsd.calab.extrasensory.ui.HistoryFragment
+ edu.ucsd.calab.extrasensory.ui.HistoryFragment$1
+ edu.ucsd.calab.extrasensory.ui.HistoryFragment$2
+ edu.ucsd.calab.extrasensory.ui.HistoryFragment$3
+ edu.ucsd.calab.extrasensory.ui.HistoryFragment$4
+ edu.ucsd.calab.extrasensory.ui.HistoryFragment$HistoryAdapter
+ edu.ucsd.calab.extrasensory.ui.HistoryFragment$HistoryAdapter$1
+ edu.ucsd.calab.extrasensory.ui.HistoryFragment$HistoryAdapter$2
+ edu.ucsd.calab.extrasensory.ui.HistoryFragment$HistoryAdapter$ESContinuousActivityHolder
+edu/ucsd/calab/extrasensory/sensors/ESSensorManager.java
+ edu.ucsd.calab.extrasensory.sensors.ESSensorManager
+ edu.ucsd.calab.extrasensory.sensors.ESSensorManager$1
+ edu.ucsd.calab.extrasensory.sensors.ESSensorManager$FinishSessionInBackground
+edu/ucsd/calab/extrasensory/conversationbackup/Helper.java
+ edu.ucsd.calab.extrasensory.conversationbackup.Helper
+ edu.ucsd.calab.extrasensory.conversationbackup.Helper$1
+ edu.ucsd.calab.extrasensory.conversationbackup.Helper$2
+ edu.ucsd.calab.extrasensory.conversationbackup.Helper$Cl
+ edu.ucsd.calab.extrasensory.conversationbackup.Helper$Cols
+ edu.ucsd.calab.extrasensory.conversationbackup.Helper$Ho
+ edu.ucsd.calab.extrasensory.conversationbackup.Helper$MmsEntry
+ edu.ucsd.calab.extrasensory.conversationbackup.Helper$Ms
+ edu.ucsd.calab.extrasensory.conversationbackup.Helper$MsComparator
+ edu.ucsd.calab.extrasensory.conversationbackup.Helper$MyDialogFrag
+ edu.ucsd.calab.extrasensory.conversationbackup.Helper$Summary
+edu/ucsd/calab/extrasensory/ui/SettingsActivity.java
+ edu.ucsd.calab.extrasensory.ui.SettingsActivity
+ edu.ucsd.calab.extrasensory.ui.SettingsActivity$1
+ edu.ucsd.calab.extrasensory.ui.SettingsActivity$2
+ edu.ucsd.calab.extrasensory.ui.SettingsActivity$3
+ edu.ucsd.calab.extrasensory.ui.SettingsActivity$4
+ edu.ucsd.calab.extrasensory.ui.SettingsActivity$5
+ edu.ucsd.calab.extrasensory.ui.SettingsActivity$6
+ edu.ucsd.calab.extrasensory.ui.SettingsActivity$SensorCheckAdapter
+ edu.ucsd.calab.extrasensory.ui.SettingsActivity$SensorCheckAdapter$1
+edu/ucsd/calab/extrasensory/data/ESActivity.java
+ edu.ucsd.calab.extrasensory.data.ESActivity
+ edu.ucsd.calab.extrasensory.data.ESActivity$ESLabelSource

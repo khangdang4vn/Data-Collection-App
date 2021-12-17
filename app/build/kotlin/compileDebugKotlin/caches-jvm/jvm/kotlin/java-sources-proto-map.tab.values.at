@@ -1,0 +1,1411 @@
+
+
+permission
+checkCallingOrSelfUriPermission
+uri
+net
+Uri
+	modeFlags
+checkCallingPermission
+checkCallingUriPermission
+checkIfShouldFinishSession
+checkPermission
+pid
+uid
+checkSelfPermission
+checkUriPermission
+Nullable
+readPermission
+writePermission
+clearRecordingSession
+Unit
+clearBeforeStart
+clearWallpaper
+collectPhoneStateMeasurements
+RequiresApi
+createConfigurationContext
+overrideConfiguration
+res
+Configuration
+createContextForSplit
+	splitName
+#createDeviceProtectedStorageContext
+createDisplayContext
+display
+view
+Display
+createPackageContext
+packageName
+createZipFile
+highFreqDataStr
+currentZipFilename
+databaseList
+Array
+debugSensorSimulationMode
+deleteDatabase
+name
+
+deleteFile
+deleteSharedPreferences
+enforceCallingOrSelfPermission
+message
+!enforceCallingOrSelfUriPermission
+enforceCallingPermission
+enforceCallingUriPermission
+enforcePermission
+enforceUriPermission
+fileList
+finishIfTooMuchTimeRecording
+finishSession
+finishSessionIfReady
+getApplicationContext
+getApplicationInfo
+pm
+ApplicationInfo
+	getAssets
+AssetManager
+getCacheDir
+io
+File
+getClassLoader
+lang
+ClassLoader
+getCodeCacheDir
+getContentResolver
+ContentResolver
+
+getDataDir
+getDatabasePath
+getDir
+mode
+getExternalCacheDir
+getExternalCacheDirs
+getExternalFilesDir
+type
+getExternalFilesDirs
+getExternalMediaDirs
+getFileStreamPath
+getFilesDir
+getMainLooper
+os
+Looper
+getNoBackupFilesDir
+	getObbDir
+
+getObbDirs
+getPackageCodePath
+getPackageManager
+PackageManager
+getPackageName
+getPackageResourcePath
+ getRegisteredHighFreqSensorTypes
+getRegisteredLowFreqSensorTypes
+getResources
+	Resources
+getSensorNiceName
+
+sensorType
+getSensorTypesFromSensors
+getSharedPreferences
+SharedPreferences
+getSystemService
+Any
+getSystemServiceName
+serviceClass
+Class
+getTheme
+Theme
+getWallpaper
+graphics
+drawable
+Drawable
+ getWallpaperDesiredMinimumHeight
+getWallpaperDesiredMinimumWidth
+grantUriPermission
+	toPackage
+isDeviceProtectedStorage
+is_recordingRightNow
+logCurrentSampleSize
+moveDatabaseFrom
+sourceContext
+moveSharedPreferencesFrom
+onAccuracyChanged
+sensor
+accuracy
+onConnected
+bundle
+Bundle
+onConnectionFailed
+connectionResult
+ConnectionResult
+onConnectionSuspended
+i
+onLocationChanged
+Location
+onSensorChanged
+event
+SensorEvent
+openFileInput
+FileInputStream
+openFileOutput
+FileOutputStream
+openOrCreateDatabase
+database
+sqlite
+SQLiteDatabase
+factory
+CursorFactory
+errorHandler
+DatabaseErrorHandler
+peekWallpaper
+/prepareListOfMeasurementsShouldGetEnoughSamples
+hfSensorTypesToRecord
+registerReceiver
+receiver
+BroadcastReceiver
+filter
+IntentFilter
+broadcastPermission
+	scheduler
+Handler
+removeStickyBroadcast
+intent
+removeStickyBroadcastAsUser
+user
+
+UserHandle
+revokeUriPermission
+sendBroadcast
+receiverPermission
+sendBroadcastAsUser
+sendOrderedBroadcast
+resultReceiver
+initialCode
+initialData
+initialExtras
+sendOrderedBroadcastAsUser
+sendStickyBroadcast
+sendStickyBroadcastAsUser
+sendStickyOrderedBroadcast
+ sendStickyOrderedBroadcastAsUser
+setTheme
+resid
+setWallpaper
+bitmap
+Bitmap
+InputStream
+set_recordingRightNow
+recordingRightNow
+simulateRecordingSession
+startActivities
+intents
+options
+startActivity
+startForegroundService
+ComponentName
+startInstrumentation
+	className
+profileFile
+	arguments
+startIntentSender
+IntentSender
+fillInIntent
+	flagsMask
+flagsValues
+
+extraFlags
+startRecordingSensors
+	timestamp
+startService
+stopRecordingSensors
+stopService
+tryToAddSensor
+isHighFreqSensor
+niceName
+
+featureKey
+unbindService
+unregisterReceiver
+	writeFile
+	APP_STATE
+	app_state
+BATTERY_LEVEL
+battery_level
+BATTERY_PLUGGED
+battery_plugged
+BATTERY_PLUGGED_AC_STR
+ac
+BATTERY_PLUGGED_USB_STR
+usb
+BATTERY_PLUGGED_WIRELESS_STR
+wireless
+BATTERY_STATE
+battery_state
+BATTERY_STATUS_CHARGING_STR
+charging
+BATTERY_STATUS_DISCHARGING_STR
+discharging
+BATTERY_STATUS_FULL_STR
+full
+BATTERY_STATUS_NOT_CHARGING_STR
+not_charging
+BATTERY_STATUS_UNKNOWN_STR
+unknown
+!BROADCAST_RECORDING_STATE_CHANGED
+5edu.ucsd.calab.extrasensory.broadcast.recording_state
+DATE_TIME_ISO8601
+date_time_iso8601
+HIGH_FREQ_DATA_FILENAME
+HF_DUR_DATA.txt
+HOUR_OF_DAY
+hour_of_day
+HUMIDITY
+relative_humidity
+LIGHT
+light
+LOCATION_BUBBLE_RADIUS_METERS
+Float
+'LOCATION_FASTEST_UPDATE_INTERVAL_MILLIS
+Long
+LOCATION_FEATURE_LAT_CHANGE
+
+lat_change
+LOCATION_FEATURE_LAT_DERIV
+mean_abs_lat_deriv
+LOCATION_FEATURE_LONG_CHANGE
+long_change
+LOCATION_FEATURE_LONG_DERIV
+mean_abs_long_deriv
+LOCATION_FEATURE_STD_LAT
+std_lat
+LOCATION_FEATURE_STD_LONG
+std_long
+LOCATION_QUICK_FEATURES
+location_quick_features
+LOCATION_UPDATE_INTERVAL_MILLIS
+LOC_ACCURACY_UNAVAILABLE
+LOC_ALT
+location_altitude
+LOC_ALT_UNAVAILABLE
+LOC_BEARING
+location_bearing
+LOC_BEARING_UNAVAILABLE
+LOC_HOR_ACCURACY
+location_horizontal_accuracy
+LOC_LAT
+location_latitude
+LOC_LAT_HIDDEN
+LOC_LONG
+location_longitude
+LOC_LONG_HIDDEN
+	LOC_SPEED
+location_speed
+LOC_SPEED_UNAVAILABLE
+LOC_TIME
+location_timeref
+LOG_TAG
+[ESSensorManager]
+LOW_FREQ
+low_frequency
+#LOW_FREQ_SAMPLE_PERIOD_MICROSECONDS
+MAX_TIME_RECORDING_IN_SECONDS
+MILLISECONDS_IN_SECOND
+MINUTE_IN_HOUR
+minute_in_hour
+MISSING_VALUE_STR
+missing
+NANOSECONDS_IN_MILLISECOND
+NANOSECONDS_IN_SECOND
+NUM_SAMPLES_IN_SESSION
+ON_THE_PHONE
+on_the_phone
+PRESSURE
+pressure
+PROC_ACC_TIME_MS
+processed_user_acc_timeref_ms
+PROC_ACC_TIME_S
+processed_user_acc_timeref_s
+PROC_ACC_UNIX_TIME
+processed_user_acc_unix_time
+
+PROC_ACC_X
+processed_user_acc_x
+
+PROC_ACC_Y
+processed_user_acc_y
+
+PROC_ACC_Z
+processed_user_acc_z
+PROC_GRAV_TIME_MS
+processed_gravity_timeref_ms
+PROC_GRAV_TIME_S
+processed_gravity_timeref_s
+PROC_GRAV_UNIX_TIME
+processed_gravity_unix_time
+PROC_GRAV_X
+processed_gravity_x
+PROC_GRAV_Y
+processed_gravity_y
+PROC_GRAV_Z
+processed_gravity_z
+PROC_GYRO_TIME_MS
+processed_gyro_timeref_ms
+PROC_GYRO_TIME_S
+processed_gyro_timeref_s
+PROC_GYRO_UNIX_TIME
+processed_gyro_unix_time
+PROC_GYRO_X
+processed_gyro_x
+PROC_GYRO_Y
+processed_gyro_y
+PROC_GYRO_Z
+processed_gyro_z
+PROC_MAGNET_TIME_MS
+processed_magnet_timeref_ms
+PROC_MAGNET_TIME_S
+processed_magnet_timeref_s
+PROC_MAGNET_UNIX_TIME
+processed_magnet_unix_time
+PROC_MAGNET_X
+processed_magnet_x
+PROC_MAGNET_Y
+processed_magnet_y
+PROC_MAGNET_Z
+processed_magnet_z
+PROC_ROTATION_ACCURACY
+"processed_rotation_vector_accuracy
+PROC_ROTATION_COS
+ processed_rotation_vector_cosine
+PROC_ROTATION_TIME_MS
+$processed_rotation_vector_timeref_ms
+PROC_ROTATION_TIME_S
+#processed_rotation_vector_timeref_s
+PROC_ROTATION_UNIX_TIME
+#processed_rotation_vector_unix_time
+PROC_ROTATION_X
+processed_rotation_vector_x
+PROC_ROTATION_Y
+processed_rotation_vector_y
+PROC_ROTATION_Z
+processed_rotation_vector_z
+	PROXIMITY
+proximity_cm
+RAW_ACC_TIME_MS
+raw_acc_timeref_ms
+RAW_ACC_TIME_S
+raw_acc_timeref_s
+RAW_ACC_UNIX_TIME
+raw_acc_unix_time
+	RAW_ACC_X
+	raw_acc_x
+	RAW_ACC_Y
+	raw_acc_y
+	RAW_ACC_Z
+	raw_acc_z
+RAW_GYRO_DRIFT_X
+raw_gyro_drift_x
+RAW_GYRO_DRIFT_Y
+raw_gyro_drift_y
+RAW_GYRO_DRIFT_Z
+raw_gyro_drift_z
+RAW_GYRO_TIME_MS
+raw_gyro_timeref_ms
+RAW_GYRO_TIME_S
+raw_gyro_timeref_s
+RAW_GYRO_UNIX_TIME
+raw_gyro_unix_time
+
+RAW_GYRO_X
+
+raw_gyro_x
+
+RAW_GYRO_Y
+
+raw_gyro_y
+
+RAW_GYRO_Z
+
+raw_gyro_z
+RAW_MAGNET_BIAS_X
+raw_magnet_bias_x
+RAW_MAGNET_BIAS_Y
+raw_magnet_bias_y
+RAW_MAGNET_BIAS_Z
+raw_magnet_bias_z
+RAW_MAGNET_TIME_MS
+raw_magnet_timeref_ms
+RAW_MAGNET_TIME_S
+raw_magnet_timeref_s
+RAW_MAGNET_UNIX_TIME
+raw_magnet_unix_time
+RAW_MAGNET_X
+raw_magnet_x
+RAW_MAGNET_Y
+raw_magnet_y
+RAW_MAGNET_Z
+raw_magnet_z
+RINGER_MODE
+ringer_mode
+RINGER_MODE_NORMAL_STR
+normal
+RINGER_MODE_SILENT_STR
+silent_no_vibrate
+RINGER_MODE_VIBRATE_STR
+silent_with_vibrate
+SAMPLE_PERIOD_MICROSECONDS
+SCREEN_BRIGHT
+screen_brightness
+TEMPERATURE_AMBIENT
+temperature_ambient
+TIMEZONE_LONG_NAME
+timezone_long_name
+	UNIX_TIME
+	unix_time
+WIFI_STATUS
+wifi_status
+theSingleSensorManager
+getESSensorManager
+getSensorLeadingMeasurementKey
+getStringValueForBatteryPlugged
+batteryPlugged
+getStringValueForBatteryStatus
+batteryStatus
+getStringValueForRingerMode
+
+ringerMode
+getZipFileForRecord
+getZipFilename
+FinishSessionInBackground  ˆ
+ 
+ 
+
+
+
+ 
+
+
+ 
+	
+	
+ 
+
+
+
+
+
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+	  
+" 
+# 
+&
+ '
+!( 
+,
+#- 
+/ 
+	2 
+4
+'5 
+6 
+'7 
+9
++: 
+@ 
+B 
+C
+/D
+0E 
+L
+2M 
+0W 
+[ 
+0_ 
+b
+7c 
+i
+9j 
+q 
+Ñ
+<Ö 
+7á 
+â
+?ä 
+å
+Aç 
+ê 
+û
+Dü 
+<• 
+7´ 
+∞ 
+≤ 
+Aµ 
+G∑ 
+π
+L∫
+Mª 
+DÀ 
+Œ 
+
+Q“ 
+	’ 
+?◊ 
+?Ÿ 
+€
+V‹
+W› 
+Xﬂ 
+V· 
+Á 
+È 
+DÏ 
+DÒ 
+LÑ 
+?Ö 
+é 
+î 
+  
+Ã √    uí2&
+*00
+*00
+*000	BJB*0020"
+*00**0000"*00HîÄ   ¶
+edu
+ucsd
+calab
+extrasensory
+sensors
+ESSensorManager
+FinishSessionInBackground
+android
+os
+	AsyncTask
+java
+lang
+Void
+doInBackground
+params
+kotlin
+Array   \
+ 
+ 
+
+
+
+ 
+ 
+
+
+	 
+
+
+
+
+ 
+
+ ÇP∫	(¿>R0XÇP∫	(¿>  Ä
+edu
+ucsd
+calab
+extrasensory
+data
+ESDataFilesAccessor
+kotlin
+Any
+BROADCAST_EXTRA_KEY_TIMESTAMP
+String
+	timestamp
+BROADCAST_SAVED_PRED_FILE
+;edu.ucsd.calab.extrasensory.broadcast.saved_prediction_file
+CONTEXT
+android
+content
+Context
+LABEL_DATA_DIRNAME
+LABEL_NAMES_KEY
+label_names
+LABEL_PROBS_KEY
+label_probs
+LOCATION_LAT_LONG_KEY
+location_lat_long
+LOG_TAG
+[ESDataFilesAccessor]
+getLabelFilesDir
+java
+io
+File
+writeServerPredictions
+Boolean
+ESTimestamp
+predictedLabelNames
+Array
+predictedLabelProbs
+DoubleArray
+locationLatLong
+writeUserReportedLabels
+mainActivityUserCorrection
+secondaryActivities
+moods   |
+ 
+ 
+
+
+
+ 
+
+ 
+	 
+
+	
+
+ 
+
+
+ 
+ 
+  
+" 
+$ √    uí2&
+*00
+*00
+*000	BJB*0020"
+*00**0000"*00HîÄ   ¶
+edu
+ucsd
+calab
+extrasensory
+sensors
+ESSensorManager
+FinishSessionInBackground
+android
+os
+	AsyncTask
+java
+lang
+Void
+doInBackground
+params
+kotlin
+Array   \
+ 
+ 
+
+
+
+ 
+ 
+
+
+	 
+
+
+
+
+ 
+
+ 0XÇP∫	(·¿>R‚0XÇP∫	!      ø¿>R„0XÇP∫	(‰¿>RÂ0XÇP∫	(Ê¿>RÁ0XÇP∫	!     @è¿¿>RË0XÇP∫	(È¿>RÍ0XÇP∫	!     @è¿¿>RÎ0XÇP∫	(Ï¿>RÌ0XÇP∫	!      ø¿>RÓ0XÇP∫	(Ô¿>R0XÇP∫	(Ò¿>RÚ0XÇP∫	(Û¿>RÙ0(XÇP∫	Äâz¿>Rı0(XÇP∫	<¿>Rˆ0XÇP∫	!     @è@¿>R˜0XÇP∫	(¯¿>R˘0XÇP∫	(˙¿>R˚0XÇP∫	!    ÄÑ.A¿>R¸0XÇP∫	!    eÕÕA¿>R˝0(XÇP∫	¿¿>R˛0XÇP∫	(ˇ¿>RÄ0XÇP∫	(Å¿>RÇ0XÇP∫	(É¿>RÑ0XÇP∫	(Ö¿>RÜ0XÇP∫	(á¿>Rà0XÇP∫	(â¿>Rä0XÇP∫	(ã¿>Rå0XÇP∫	(ç¿>Ré0XÇP∫	(è¿>Rê0XÇP∫	(ë¿>Rí0XÇP∫	(ì¿>Rî0XÇP∫	(ï¿>Rñ0XÇP∫	(ó¿>Rò0XÇP∫	(ô¿>Rö0XÇP∫	(õ¿>Rú0XÇP∫	(ù¿>Rû0XÇP∫	(ü¿>R†0XÇP∫	(°¿>R¢0XÇP∫	(£¿>R§0XÇP∫	(•¿>R¶0XÇP∫	(ß¿>R®0XÇP∫	(©¿>R™0XÇP∫	(´¿>R¨0XÇP∫	(≠¿>RÆ0XÇP∫	(Ø¿>R∞0XÇP∫	(±¿>R≤0XÇP∫	(≥¿>R¥0XÇP∫	(µ¿>R∂0XÇP∫	(∑¿>R∏0XÇP∫	(π¿>R∫0XÇP∫	(ª¿>Rº0XÇP∫	(Ω¿>Ræ0XÇP∫	(ø¿>R¿0XÇP∫	(¡¿>R¬0XÇP∫	(√¿>Rƒ0XÇP∫	(≈¿>R∆0XÇP∫	(«¿>R»0XÇP∫	(…¿>R 0XÇP∫	(À¿>RÃ0XÇP∫	(Õ¿>RŒ0XÇP∫	(œ¿>R–0XÇP∫	(—¿>R“0XÇP∫	(”¿>R‘0XÇP∫	(’¿>R÷0XÇP∫	(◊¿>Rÿ0XÇP∫	(Ÿ¿>R⁄0XÇP∫	(€¿>R‹0XÇP∫	(›¿>Rﬁ0XÇP∫	(ﬂ¿>R‡0XÇP∫	(·¿>R‚0XÇP∫	(„¿>R‰0XÇP∫	(Â¿>RÊ0XÇP∫	(Á¿>RË0XÇP∫	(È¿>RÍ0XÇP∫	(Î¿>RÏ0XÇP∫	(Ì¿>RÓ0XÇP∫	(Ô¿>R0XÇP∫	(Ò¿>RÚ0XÇP∫	(Û¿>RÙ0XÇP∫	(ı¿>Rˆ0XÇP∫	(˜¿>R¯0XÇP∫	(˘¿>R˙0XÇP∫	(˚¿>R¸0(XÇP∫	–Ü¿>R˝0XÇP∫	(˛¿>Rˇ0XÇP∫	(Ä¿>RÅ0XÇP∫	(Ç¿>RÉ0XÇP∫	(Ñ¿>RÖ0XÇP∫	(Ü¿>Rá*00XÇ¿>  #ÿ
+edu
+ucsd
+calab
+extrasensory
+sensors
+ESSensorManager
+android
+content
+Context
+hardware
+SensorEventListener
+com
+google
+gms
+common
+api
+GoogleApiClient
+ConnectionCallbacks
+OnConnectionFailedListener
+location
+LocationListener
+_audioProcessor
+AudioProcessing
+ESAudioProcessor
+_googleApiClient
+_hiFreqSensorFeatureKeys
+java
+util
+	ArrayList
+kotlin
+String
+_hiFreqSensors
+Sensor
+_highFreqData
+HashMap
+Double
+_locationCoordinatesData
+_lowFreqData
+org
+json
+
+JSONObject
+_lowFreqSensorFeatureKeys
+_lowFreqSensors
+_polarProcessor
+PolarActivity
+_recordingRightNow
+Boolean
+%_sensorKeysThatShouldGetEnoughSamples
+_sensorManager
+SensorManager
+_sensorTypeToNiceName
+collections
+
+MutableMap
+Int
+Map
+
+_timestamp
+data
+ESTimestamp
+addHighFrequencyMeasurement
+key
+measurement
+bindService
+service
+Intent
+conn
+ServiceConnection
+androidx
+
+annotation
+NonNull
+flags
+calcLocationQuickFeatures
+checkCallingOrSelfPermission
+
+permission
+checkCallingOrSelfUriPermission
+uri
+net
+Uri
+	modeFlags
+checkCallingPermission
+checkCallingUriPermission
+checkIfShouldFinishSession
+checkPermission
+pid
+uid
+checkSelfPermission
+checkUriPermission
+Nullable
+readPermission
+writePermission
+clearRecordingSession
+Unit
+clearBeforeStart
+clearWallpaper
+collectPhoneStateMeasurements
+RequiresApi
+createConfigurationContext
+overrideConfiguration
+res
+Configuration
+createContextForSplit
+	splitName
+#createDeviceProtectedStorageContext
+createDisplayContext
+display
+view
+Display
+createPackageContext
+packageName
+createZipFile
+highFreqDataStr
+currentZipFilename
+databaseList
+Array
+debugSensorSimulationMode
+deleteDatabase
+name
+
+deleteFile
+deleteSharedPreferences
+enforceCallingOrSelfPermission
+message
+!enforceCallingOrSelfUriPermission
+enforceCallingPermission
+enforceCallingUriPermission
+enforcePermission
+enforceUriPermission
+fileList
+finishIfTooMuchTimeRecording
+finishSession
+finishSessionIfReady
+getApplicationContext
+getApplicationInfo
+pm
+ApplicationInfo
+	getAssets
+AssetManager
+getCacheDir
+io
+File
+getClassLoader
+lang
+ClassLoader
+getCodeCacheDir
+getContentResolver
+ContentResolver
+
+getDataDir
+getDatabasePath
+getDir
+mode
+getExternalCacheDir
+getExternalCacheDirs
+getExternalFilesDir
+type
+getExternalFilesDirs
+getExternalMediaDirs
+getFileStreamPath
+getFilesDir
+getMainLooper
+os
+Looper
+getNoBackupFilesDir
+	getObbDir
+
+getObbDirs
+getPackageCodePath
+getPackageManager
+PackageManager
+getPackageName
+getPackageResourcePath
+ getRegisteredHighFreqSensorTypes
+getRegisteredLowFreqSensorTypes
+getResources
+	Resources
+getSensorNiceName
+
+sensorType
+getSensorTypesFromSensors
+getSharedPreferences
+SharedPreferences
+getSystemService
+Any
+getSystemServiceName
+serviceClass
+Class
+getTheme
+Theme
+getWallpaper
+graphics
+drawable
+Drawable
+ getWallpaperDesiredMinimumHeight
+getWallpaperDesiredMinimumWidth
+grantUriPermission
+	toPackage
+isDeviceProtectedStorage
+is_recordingRightNow
+logCurrentSampleSize
+moveDatabaseFrom
+sourceContext
+moveSharedPreferencesFrom
+onAccuracyChanged
+sensor
+accuracy
+onConnected
+bundle
+Bundle
+onConnectionFailed
+connectionResult
+ConnectionResult
+onConnectionSuspended
+i
+onLocationChanged
+Location
+onSensorChanged
+event
+SensorEvent
+openFileInput
+FileInputStream
+openFileOutput
+FileOutputStream
+openOrCreateDatabase
+database
+sqlite
+SQLiteDatabase
+factory
+CursorFactory
+errorHandler
+DatabaseErrorHandler
+peekWallpaper
+/prepareListOfMeasurementsShouldGetEnoughSamples
+hfSensorTypesToRecord
+registerReceiver
+receiver
+BroadcastReceiver
+filter
+IntentFilter
+broadcastPermission
+	scheduler
+Handler
+removeStickyBroadcast
+intent
+removeStickyBroadcastAsUser
+user
+
+UserHandle
+revokeUriPermission
+sendBroadcast
+receiverPermission
+sendBroadcastAsUser
+sendOrderedBroadcast
+resultReceiver
+initialCode
+initialData
+initialExtras
+sendOrderedBroadcastAsUser
+sendStickyBroadcast
+sendStickyBroadcastAsUser
+sendStickyOrderedBroadcast
+ sendStickyOrderedBroadcastAsUser
+setTheme
+resid
+setWallpaper
+bitmap
+Bitmap
+InputStream
+set_recordingRightNow
+recordingRightNow
+simulateRecordingSession
+startActivities
+intents
+options
+startActivity
+startForegroundService
+ComponentName
+startInstrumentation
+	className
+profileFile
+	arguments
+startIntentSender
+IntentSender
+fillInIntent
+	flagsMask
+flagsValues
+
+extraFlags
+startRecordingSensors
+	timestamp
+startService
+stopRecordingSensors
+stopService
+tryToAddSensor
+isHighFreqSensor
+niceName
+
+featureKey
+unbindService
+unregisterReceiver
+	writeFile
+filename
+	APP_STATE
+	app_state
+BATTERY_LEVEL
+battery_level
+BATTERY_PLUGGED
+battery_plugged
+BATTERY_PLUGGED_AC_STR
+ac
+BATTERY_PLUGGED_USB_STR
+usb
+BATTERY_PLUGGED_WIRELESS_STR
+wireless
+BATTERY_STATE
+battery_state
+BATTERY_STATUS_CHARGING_STR
+charging
+BATTERY_STATUS_DISCHARGING_STR
+discharging
+BATTERY_STATUS_FULL_STR
+full
+BATTERY_STATUS_NOT_CHARGING_STR
+not_charging
+BATTERY_STATUS_UNKNOWN_STR
+unknown
+!BROADCAST_RECORDING_STATE_CHANGED
+5edu.ucsd.calab.extrasensory.broadcast.recording_state
+DATE_TIME_ISO8601
+date_time_iso8601
+HIGH_FREQ_DATA_FILENAME
+HF_DUR_DATA.txt
+HOUR_OF_DAY
+hour_of_day
+HUMIDITY
+relative_humidity
+LIGHT
+light
+LOCATION_BUBBLE_RADIUS_METERS
+Float
+'LOCATION_FASTEST_UPDATE_INTERVAL_MILLIS
+Long
+LOCATION_FEATURE_LAT_CHANGE
+
+lat_change
+LOCATION_FEATURE_LAT_DERIV
+mean_abs_lat_deriv
+LOCATION_FEATURE_LONG_CHANGE
+long_change
+LOCATION_FEATURE_LONG_DERIV
+mean_abs_long_deriv
+LOCATION_FEATURE_STD_LAT
+std_lat
+LOCATION_FEATURE_STD_LONG
+std_long
+LOCATION_QUICK_FEATURES
+location_quick_features
+LOCATION_UPDATE_INTERVAL_MILLIS
+LOC_ACCURACY_UNAVAILABLE
+LOC_ALT
+location_altitude
+LOC_ALT_UNAVAILABLE
+LOC_BEARING
+location_bearing
+LOC_BEARING_UNAVAILABLE
+LOC_HOR_ACCURACY
+location_horizontal_accuracy
+LOC_LAT
+location_latitude
+LOC_LAT_HIDDEN
+LOC_LONG
+location_longitude
+LOC_LONG_HIDDEN
+	LOC_SPEED
+location_speed
+LOC_SPEED_UNAVAILABLE
+LOC_TIME
+location_timeref
+LOG_TAG
+[ESSensorManager]
+LOW_FREQ
+low_frequency
+#LOW_FREQ_SAMPLE_PERIOD_MICROSECONDS
+MAX_TIME_RECORDING_IN_SECONDS
+MILLISECONDS_IN_SECOND
+MINUTE_IN_HOUR
+minute_in_hour
+MISSING_VALUE_STR
+missing
+NANOSECONDS_IN_MILLISECOND
+NANOSECONDS_IN_SECOND
+NUM_SAMPLES_IN_SESSION
+ON_THE_PHONE
+on_the_phone
+PRESSURE
+pressure
+PROC_ACC_TIME_MS
+processed_user_acc_timeref_ms
+PROC_ACC_TIME_S
+processed_user_acc_timeref_s
+PROC_ACC_UNIX_TIME
+processed_user_acc_unix_time
+
+PROC_ACC_X
+processed_user_acc_x
+
+PROC_ACC_Y
+processed_user_acc_y
+
+PROC_ACC_Z
+processed_user_acc_z
+PROC_GRAV_TIME_MS
+processed_gravity_timeref_ms
+PROC_GRAV_TIME_S
+processed_gravity_timeref_s
+PROC_GRAV_UNIX_TIME
+processed_gravity_unix_time
+PROC_GRAV_X
+processed_gravity_x
+PROC_GRAV_Y
+processed_gravity_y
+PROC_GRAV_Z
+processed_gravity_z
+PROC_GYRO_TIME_MS
+processed_gyro_timeref_ms
+PROC_GYRO_TIME_S
+processed_gyro_timeref_s
+PROC_GYRO_UNIX_TIME
+processed_gyro_unix_time
+PROC_GYRO_X
+processed_gyro_x
+PROC_GYRO_Y
+processed_gyro_y
+PROC_GYRO_Z
+processed_gyro_z
+PROC_MAGNET_TIME_MS
+processed_magnet_timeref_ms
+PROC_MAGNET_TIME_S
+processed_magnet_timeref_s
+PROC_MAGNET_UNIX_TIME
+processed_magnet_unix_time
+PROC_MAGNET_X
+processed_magnet_x
+PROC_MAGNET_Y
+processed_magnet_y
+PROC_MAGNET_Z
+processed_magnet_z
+PROC_ROTATION_ACCURACY
+"processed_rotation_vector_accuracy
+PROC_ROTATION_COS
+ processed_rotation_vector_cosine
+PROC_ROTATION_TIME_MS
+$processed_rotation_vector_timeref_ms
+PROC_ROTATION_TIME_S
+#processed_rotation_vector_timeref_s
+PROC_ROTATION_UNIX_TIME
+#processed_rotation_vector_unix_time
+PROC_ROTATION_X
+processed_rotation_vector_x
+PROC_ROTATION_Y
+processed_rotation_vector_y
+PROC_ROTATION_Z
+processed_rotation_vector_z
+	PROXIMITY
+proximity_cm
+RAW_ACC_TIME_MS
+raw_acc_timeref_ms
+RAW_ACC_TIME_S
+raw_acc_timeref_s
+RAW_ACC_UNIX_TIME
+raw_acc_unix_time
+	RAW_ACC_X
+	raw_acc_x
+	RAW_ACC_Y
+	raw_acc_y
+	RAW_ACC_Z
+	raw_acc_z
+RAW_GYRO_DRIFT_X
+raw_gyro_drift_x
+RAW_GYRO_DRIFT_Y
+raw_gyro_drift_y
+RAW_GYRO_DRIFT_Z
+raw_gyro_drift_z
+RAW_GYRO_TIME_MS
+raw_gyro_timeref_ms
+RAW_GYRO_TIME_S
+raw_gyro_timeref_s
+RAW_GYRO_UNIX_TIME
+raw_gyro_unix_time
+
+RAW_GYRO_X
+
+raw_gyro_x
+
+RAW_GYRO_Y
+
+raw_gyro_y
+
+RAW_GYRO_Z
+
+raw_gyro_z
+RAW_MAGNET_BIAS_X
+raw_magnet_bias_x
+RAW_MAGNET_BIAS_Y
+raw_magnet_bias_y
+RAW_MAGNET_BIAS_Z
+raw_magnet_bias_z
+RAW_MAGNET_TIME_MS
+raw_magnet_timeref_ms
+RAW_MAGNET_TIME_S
+raw_magnet_timeref_s
+RAW_MAGNET_UNIX_TIME
+raw_magnet_unix_time
+RAW_MAGNET_X
+raw_magnet_x
+RAW_MAGNET_Y
+raw_magnet_y
+RAW_MAGNET_Z
+raw_magnet_z
+RINGER_MODE
+ringer_mode
+RINGER_MODE_NORMAL_STR
+normal
+RINGER_MODE_SILENT_STR
+silent_no_vibrate
+RINGER_MODE_VIBRATE_STR
+silent_with_vibrate
+SAMPLE_PERIOD_MICROSECONDS
+SCREEN_BRIGHT
+screen_brightness
+TEMPERATURE_AMBIENT
+temperature_ambient
+TIMEZONE_LONG_NAME
+timezone_long_name
+	UNIX_TIME
+	unix_time
+WIFI_STATUS
+wifi_status
+theSingleSensorManager
+getESSensorManager
+getSensorLeadingMeasurementKey
+getStringValueForBatteryPlugged
+batteryPlugged
+getStringValueForBatteryStatus
+batteryStatus
+getStringValueForRingerMode
+
+ringerMode
+getZipFileForRecord
+getZipFilename
+FinishSessionInBackground  ˘
+ 
+ 
+
+
+
+ 
+
+
+ 
+	
+	
+ 
+
+
+
+
+
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+	  
+" 
+# 
+&
+ '
+!( 
+ˇˇˇˇˇˇˇˇˇ, 
+. 
+	1 
+3
+&4 
+5 
+&6 
+8
+*9 
+? 
+A 
+B
+.C
+/D 
+K
+1L 
+/V 
+Z 
+/^ 
+a
+6b 
+h
+8i 
+p 
+É
+;Ñ 
+6Ü 
+à
+>â 
+ã
+@å 
+è 
+ù
+Cû 
+;§ 
+6™ 
+Ø 
+± 
+@¥ 
+F∂ 
+∏
+Kπ
+L∫ 
+C  
+Õ 
+
+P— 
+	‘ 
+>÷ 
+>ÿ 
+⁄
+U€
+V‹ 
+Wﬁ 
+U‡ 
+Ê 
+Ë 
+CÎ 
+C 
+KÉ 
+>Ñ 
+ç 
+ì 
+  
+Ã √    uí2&
+*00
+*00
+*000	BJB*0020"
+*00**0000"*00HîÄ   ¶
+edu
+ucsd
+calab
+extrasensory
+sensors
+ESSensorManager
+FinishSessionInBackground
+android
+os
+	AsyncTask
+java
+lang
+Void
+doInBackground
+params
+kotlin
+Array   \
+ 
+ 
+
+
+
+ 
+ 
+
+
+	 
+
+
+
+
+ 
+
+ 

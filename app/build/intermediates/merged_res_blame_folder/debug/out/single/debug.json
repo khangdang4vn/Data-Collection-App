@@ -1,0 +1,330 @@
+[
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_archives.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/archives.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_activity_feedback_details.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/activity_feedback_details.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/raw_main_activities_list.txt.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/raw/main_activities_list.txt"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xxhdpi_watch.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xxhdpi/watch.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_activity_setting.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_activity_feedback_button.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/activity_feedback_button.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_activity_feedback_dialog.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/activity_feedback_dialog.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xxhdpi_watch_off.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xxhdpi/watch_off.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xhdpi_watch.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xhdpi/watch.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher_default.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xhdpi/ic_launcher_default.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_progress_view.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/progress_view.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable_black_white_gradient.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable/black_white_gradient.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xhdpi_watch_on.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xhdpi/watch_on.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-hdpi_watch.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-hdpi/watch.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-hdpi_red_circle.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-hdpi/red_circle.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-hdpi_watch_on.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-hdpi/watch_on.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/raw_original_secondary_activities_list.txt.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/raw/original_secondary_activities_list.txt"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/menu_menu_setting.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/menu/menu_setting.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_fragment_history.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/fragment_history.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable_ic_android.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable/ic_android.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/menu_menu_selection_from_list.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/menu/menu_selection_from_list.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_fatal_message.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/fatal_message.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-mdpi_checkmark_in_circle.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-mdpi/checkmark_in_circle.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/xml_provider_paths.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/raw_server_hostname.txt.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/raw/server_hostname.txt"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher_default.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-hdpi/ic_launcher_default.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_activity_feedback.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/activity_feedback.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/raw_home_sensing_labels_list.txt.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/raw/home_sensing_labels_list.txt"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher_default.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xxhdpi/ic_launcher_default.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_activity_feedback_rowlayout.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/activity_feedback_rowlayout.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_history_gap_rowlayout.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/history_gap_rowlayout.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xxhdpi_watch_on.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xxhdpi/watch_on.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-hdpi_watch_off.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-hdpi/watch_off.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/raw_server_certificate.txt.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/raw/server_certificate.txt"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable_icon_256x256.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable/icon_256x256.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable_icon.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_fragment_home.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_history_rowlayout.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/history_rowlayout.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable_ic_notification.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable_icon_512x512.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable/icon_512x512.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-mdpi_red_circle.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-mdpi/red_circle.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-mdpi_watch_off.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-mdpi/watch_off.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/color_archives_list_item.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/color/archives_list_item.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_main.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-mdpi_watch_on.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-mdpi/watch_on.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-mdpi_watch.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-mdpi/watch.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xhdpi_watch_off.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xhdpi/watch_off.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/menu_menu_feedback.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/menu/menu_feedback.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/raw_awsconfiguration.json.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/raw/awsconfiguration.json"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_row_settings_should_record_sensor_or_not.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/row_settings_should_record_sensor_or_not.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/raw_phone_position_list.txt.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/raw/phone_position_list.txt"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xhdpi_checkmark_in_circle.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xhdpi/checkmark_in_circle.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-hdpi_checkmark_in_circle.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-hdpi/checkmark_in_circle.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/raw_location_list.txt.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/raw/location_list.txt"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/menu_menu_main.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xhdpi_red_circle.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xhdpi/red_circle.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_archives_list_item.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/archives_list_item.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-mdpi_plus_sign.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-mdpi/plus_sign.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_row_in_selection_from_list.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/row_in_selection_from_list.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_row_in_summary_list.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/row_in_summary_list.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher_default.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-mdpi/ic_launcher_default.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/raw_readme.txt.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/raw/readme.txt"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_fragment_summary.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/fragment_summary.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_activity_selection_from_list.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/activity_selection_from_list.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xxhdpi_red_circle.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-xxhdpi/red_circle.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_sensor_settings_dialog.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/sensor_settings_dialog.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-hdpi_plus_sign.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/drawable-hdpi/plus_sign.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/color_button_status_colors.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/color/button_status_colors.xml"
+    },
+    {
+        "merged": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/build/intermediates/merged_res/debug/layout_activity_polar.xml.flat",
+        "source": "/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/res/layout/activity_polar.xml"
+    }
+]

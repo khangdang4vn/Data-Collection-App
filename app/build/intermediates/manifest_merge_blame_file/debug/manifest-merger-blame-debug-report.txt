@@ -1,0 +1,853 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.ucsd.calab.extrasensory"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml
+10
+11    <meta-data
+11-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:6:5-8:65
+12        android:name="com.google.android.gms.version"
+12-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:7:9-54
+13        android:value="@integer/google_play_services_version" />
+13-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:8:9-62
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:10:5-67
+15-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:11:5-79
+16-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:12:5-85
+17-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:12:22-82
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:13:5-71
+18-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:13:22-68
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:14:5-66
+19-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:14:22-63
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:15:5-76
+20-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:15:22-74
+21    <uses-permission android:name="android.permission.BACKGROUND_SERVICE" />
+21-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:16:5-76
+21-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:16:22-74
+22    <uses-permission android:name="android.permission.BIND_JOB_SERVICE" />
+22-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:18:5-19:47
+22-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:18:22-72
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:20:5-81
+23-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:20:22-78
+24    <uses-permission android:name="android.permission.READ_SMS" />
+24-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:21:5-67
+24-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:21:22-64
+25    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+25-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:22:5-72
+25-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:22:22-69
+26    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:23:5-75
+26-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:23:22-72
+27    <!-- needed to get display name for a given number -->
+28    <uses-permission android:name="android.permission.READ_CONTACTS" />
+28-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:25:5-72
+28-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:25:22-69
+29    <!-- permissions below allow deleting conversations after backup -->
+30    <!-- WRITE_SMS permission is removed from Marshmallow (6.0 2016) -->
+31    <uses-permission android:name="android.permission.WRITE_SMS" />
+31-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:28:5-68
+31-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:28:22-65
+32    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+32-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:29:5-73
+32-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:29:22-70
+33    <!-- uses-permission android:name="android.permission.WRITE_CONTACTS" -->
+34    <!-- <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" /> -->
+35
+36
+37    <!-- Polar SDK needs Bluetooth scan permission to search for BLE devices. -->
+38    <uses-permission
+38-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:34:5-37:31
+39        android:name="android.permission.BLUETOOTH_SCAN"
+39-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:35:9-57
+40        android:usesPermissionFlags="neverForLocation" />
+40-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:36:9-55
+41
+42    <!-- Polar SDK needs Bluetooth connect permission to connect for found BLE devices. -->
+43    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+43-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:40:5-76
+43-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:40:22-73
+44
+45    <!--
+46     Allows Polar SDK to connect to paired bluetooth devices. Legacy Bluetooth permission,
+47     which is needed on devices with API 30 (Android Q) or older.
+48    -->
+49    <uses-permission android:name="android.permission.BLUETOOTH" />
+49-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:44:5-45:55
+49-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:45:9-52
+50
+51    <!--
+52     Allows Polar SDK to discover and pair bluetooth devices. Legacy Bluetooth permission,
+53     which is needed on devices with API 30 (Android Q) or older.
+54    -->
+55    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+55-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:49:5-50:61
+55-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:50:9-58
+56
+57    <!--
+58    Polar SDK needs the fine location permission to get results for Bluetooth scan. Request
+59    fine location permission on devices with API 30 (Android Q).
+60    -->
+61    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+61-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:54:5-55:66
+61-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:55:9-63
+62
+63    <!--
+64     The coarse location permission is needed, if fine location permission is requested. Request
+65     coarse location permission on devices with API 30 (Android Q).
+66    -->
+67    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+67-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:59:5-60:68
+67-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:60:9-65
+68
+69    <!-- Optional permission for Analytics to run. -->
+70    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+70-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:27:5-68
+70-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:27:22-65
+71    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+71-->[com.google.android.gms:play-services-gcm:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/4569f3feab03f4ab8f8e4f55e2ae15f7/transformed/jetified-play-services-gcm-12.0.1/AndroidManifest.xml:23:5-82
+71-->[com.google.android.gms:play-services-gcm:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/4569f3feab03f4ab8f8e4f55e2ae15f7/transformed/jetified-play-services-gcm-12.0.1/AndroidManifest.xml:23:22-79
+72
+73    <uses-feature
+73-->[com.google.android.gms:play-services-maps:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/02b8f1e9f8bf2977342e18e0fd80ece8/transformed/jetified-play-services-maps-12.0.1/AndroidManifest.xml:26:5-28:35
+74        android:glEsVersion="0x00020000"
+74-->[com.google.android.gms:play-services-maps:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/02b8f1e9f8bf2977342e18e0fd80ece8/transformed/jetified-play-services-maps-12.0.1/AndroidManifest.xml:27:9-41
+75        android:required="true" />
+75-->[com.google.android.gms:play-services-maps:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/02b8f1e9f8bf2977342e18e0fd80ece8/transformed/jetified-play-services-maps-12.0.1/AndroidManifest.xml:28:9-32
+76
+77    <permission
+77-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:28:5-30:47
+78        android:name="edu.ucsd.calab.extrasensory.permission.C2D_MESSAGE"
+78-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:29:9-63
+79        android:protectionLevel="signature" />
+79-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:30:9-44
+80
+81    <uses-permission android:name="edu.ucsd.calab.extrasensory.permission.C2D_MESSAGE" />
+81-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:32:5-79
+81-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:32:22-76
+82    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+82-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+82-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+83
+84    <application
+84-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:62:5-169:19
+85        android:name="edu.ucsd.calab.extrasensory.ESApplication"
+85-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:63:9-38
+86        android:allowBackup="true"
+86-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:64:9-35
+87        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+87-->[androidx.core:core:1.7.0] /Users/khang4dang/.gradle/caches/transforms-3/b1df2db8037fb0a7f50f9f2334113ce2/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+88        android:debuggable="true"
+89        android:icon="@drawable/ic_launcher"
+89-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:65:9-45
+90        android:label="@string/app_name"
+90-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:66:9-41
+91        android:supportsRtl="true"
+91-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:67:9-35
+92        android:testOnly="true"
+93        android:theme="@style/Theme.AppCompat.Light" >
+93-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:68:9-53
+94        <activity
+94-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:70:9-80:20
+95            android:name="edu.ucsd.calab.extrasensory.ui.MainActivity"
+95-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:71:13-44
+96            android:exported="true"
+96-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:74:13-36
+97            android:label="@string/app_name"
+97-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:72:13-45
+98            android:launchMode="singleTop" >
+98-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:73:13-43
+99            <intent-filter>
+99-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:76:13-79:29
+100                <action android:name="android.intent.action.MAIN" />
+100-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:77:17-69
+100-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:77:25-66
+101
+102                <category android:name="android.intent.category.LAUNCHER" />
+102-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:78:17-77
+102-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:78:27-74
+103            </intent-filter>
+104        </activity>
+105
+106        <service
+106-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:82:9-85:19
+107            android:name="edu.ucsd.calab.extrasensory.ESIntentService"
+107-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:83:13-44
+108            android:exported="false" >
+108-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:84:13-37
+109        </service>
+110
+111        <activity
+111-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:87:9-94:20
+112            android:name="edu.ucsd.calab.extrasensory.ui.SettingsActivity"
+112-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:88:13-48
+113            android:label="@string/title_activity_setting"
+113-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:89:13-59
+114            android:parentActivityName="edu.ucsd.calab.extrasensory.ui.MainActivity" >
+114-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:90:13-58
+115            <meta-data
+115-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:91:13-93:79
+116                android:name="android.support.PARENT_ACTIVITY"
+116-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:92:17-63
+117                android:value="edu.ucsd.calab.extrasensory.ui.MainActivity" />
+117-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:93:17-76
+118        </activity>
+119        <activity
+119-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:95:9-102:20
+120            android:name="edu.ucsd.calab.extrasensory.ui.FeedbackActivity"
+120-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:96:13-48
+121            android:label="@string/title_activity_feedback"
+121-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:97:13-60
+122            android:parentActivityName="edu.ucsd.calab.extrasensory.ui.MainActivity" >
+122-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:98:13-58
+123            <meta-data
+123-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:91:13-93:79
+124                android:name="android.support.PARENT_ACTIVITY"
+124-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:92:17-63
+125                android:value="edu.ucsd.calab.extrasensory.ui.MainActivity" />
+125-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:93:17-76
+126        </activity>
+127        <activity
+127-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:103:9-110:20
+128            android:name="edu.ucsd.calab.extrasensory.ui.SelectionFromListActivity"
+128-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:104:13-57
+129            android:label="@string/title_activity_selection_from_list"
+129-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:105:13-71
+130            android:parentActivityName="edu.ucsd.calab.extrasensory.ui.MainActivity" >
+130-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:106:13-58
+131            <meta-data
+131-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:91:13-93:79
+132                android:name="android.support.PARENT_ACTIVITY"
+132-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:92:17-63
+133                android:value="edu.ucsd.calab.extrasensory.ui.MainActivity" />
+133-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:93:17-76
+134        </activity>
+135        <activity
+135-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:111:9-133:20
+136            android:name="edu.ucsd.calab.extrasensory.conversationbackup.ConversationBackupActivity"
+136-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:112:13-74
+137            android:exported="true"
+137-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:116:13-36
+138            android:label="Conversation Backup - Home"
+138-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:113:13-55
+139            android:launchMode="singleTask"
+139-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:114:13-44
+140            android:parentActivityName="edu.ucsd.calab.extrasensory.ui.MainActivity" >
+140-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:115:13-58
+141            <meta-data
+141-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:91:13-93:79
+142                android:name="android.support.PARENT_ACTIVITY"
+142-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:92:17-63
+143                android:value="edu.ucsd.calab.extrasensory.ui.MainActivity" />
+143-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:93:17-76
+144
+145            <intent-filter>
+145-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:121:13-123:29
+146                <action android:name=".conversationbackup.UPDATE_PROGRESS" />
+146-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:122:17-78
+146-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:122:25-75
+147            </intent-filter>
+148            <intent-filter android:autoVerify="true" >
+148-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:124:13-132:29
+148-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:124:28-53
+149                <action android:name="android.intent.action.VIEW" />
+149-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:125:17-69
+149-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:125:25-66
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:126:17-76
+151-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:126:27-73
+152                <category android:name="android.intent.category.BROWSABLE" />
+152-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:127:17-78
+152-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:127:27-75
+153
+154                <data
+154-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:128:17-131:81
+155                    android:host="extrasensory.net"
+155-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:130:21-52
+156                    android:pathPrefix="/project/android-conversation-backup"
+156-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:131:21-78
+157                    android:scheme="http" />
+157-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:129:21-42
+158            </intent-filter>
+159        </activity>
+160        <activity
+160-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:134:9-146:20
+161            android:name="edu.ucsd.calab.extrasensory.conversationbackup.ArchivesActivity"
+161-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:135:13-64
+162            android:exported="true"
+162-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:138:13-36
+163            android:label="Conversation Backup - Archives"
+163-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:136:13-59
+164            android:parentActivityName="edu.ucsd.calab.extrasensory.ui.MainActivity" >
+164-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:137:13-58
+165            <meta-data
+165-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:91:13-93:79
+166                android:name="android.support.PARENT_ACTIVITY"
+166-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:92:17-63
+167                android:value="edu.ucsd.calab.extrasensory.ui.MainActivity" />
+167-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:93:17-76
+168
+169            <intent-filter>
+169-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:143:13-145:29
+170                <action android:name=".conversationbackup.ARCHIVES" />
+170-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:144:17-71
+170-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:144:25-68
+171            </intent-filter>
+172        </activity>
+173        <activity
+173-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:147:9-158:20
+174            android:name="edu.ucsd.calab.extrasensory.sensors.polarandroidblesdk.PolarActivity"
+174-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:148:13-69
+175            android:exported="true"
+175-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:151:13-36
+176            android:launchMode="singleTask"
+176-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:150:13-44
+177            android:parentActivityName="edu.ucsd.calab.extrasensory.ui.MainActivity" >
+177-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:149:13-58
+178            <meta-data
+178-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:91:13-93:79
+179                android:name="android.support.PARENT_ACTIVITY"
+179-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:92:17-63
+180                android:value="edu.ucsd.calab.extrasensory.ui.MainActivity" />
+180-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:93:17-76
+181
+182            <intent-filter>
+182-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:155:13-157:29
+183                <action android:name=".sensors.polarandroidblesdk.PolarActivity" />
+183-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:156:17-84
+183-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:156:25-81
+184            </intent-filter>
+185        </activity>
+186
+187        <service android:name="edu.ucsd.calab.extrasensory.conversationbackup.ProcessingService" />
+187-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:159:9-73
+187-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:159:18-70
+188
+189        <provider
+190            android:name="androidx.core.content.FileProvider"
+190-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:161:13-62
+191            android:authorities="edu.ucsd.calab.extrasensory.provider"
+191-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:162:13-60
+192            android:exported="false"
+192-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:163:13-37
+193            android:grantUriPermissions="true" >
+193-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:164:13-47
+194            <meta-data
+194-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:165:13-167:58
+195                android:name="android.support.FILE_PROVIDER_PATHS"
+195-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:166:17-67
+196                android:resource="@xml/provider_paths" />
+196-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:167:17-55
+197        </provider>
+198
+199        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+199-->[com.google.android.gms:play-services-cast-framework:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/5d73476f0545bf35914d6d1e96dc2cc7/transformed/jetified-play-services-cast-framework-12.0.1/AndroidManifest.xml:8:9-100
+199-->[com.google.android.gms:play-services-cast-framework:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/5d73476f0545bf35914d6d1e96dc2cc7/transformed/jetified-play-services-cast-framework-12.0.1/AndroidManifest.xml:8:19-97
+200
+201        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+201-->[com.google.android.gms:play-services-cast-framework:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/5d73476f0545bf35914d6d1e96dc2cc7/transformed/jetified-play-services-cast-framework-12.0.1/AndroidManifest.xml:10:9-104
+201-->[com.google.android.gms:play-services-cast-framework:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/5d73476f0545bf35914d6d1e96dc2cc7/transformed/jetified-play-services-cast-framework-12.0.1/AndroidManifest.xml:10:18-101
+202        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+202-->[com.google.android.gms:play-services-cast-framework:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/5d73476f0545bf35914d6d1e96dc2cc7/transformed/jetified-play-services-cast-framework-12.0.1/AndroidManifest.xml:11:9-93
+202-->[com.google.android.gms:play-services-cast-framework:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/5d73476f0545bf35914d6d1e96dc2cc7/transformed/jetified-play-services-cast-framework-12.0.1/AndroidManifest.xml:11:18-90
+203        <activity
+203-->[com.google.android.gms:play-services-ads-lite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/16005d6a249c1738b5035be70ba35ddf/transformed/jetified-play-services-ads-lite-12.0.1/AndroidManifest.xml:29:9-33:64
+204            android:name="com.google.android.gms.ads.AdActivity"
+204-->[com.google.android.gms:play-services-ads-lite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/16005d6a249c1738b5035be70ba35ddf/transformed/jetified-play-services-ads-lite-12.0.1/AndroidManifest.xml:30:13-65
+205            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+205-->[com.google.android.gms:play-services-ads-lite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/16005d6a249c1738b5035be70ba35ddf/transformed/jetified-play-services-ads-lite-12.0.1/AndroidManifest.xml:31:13-122
+206            android:exported="false"
+206-->[com.google.android.gms:play-services-ads-lite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/16005d6a249c1738b5035be70ba35ddf/transformed/jetified-play-services-ads-lite-12.0.1/AndroidManifest.xml:32:13-37
+207            android:theme="@android:style/Theme.Translucent" />
+207-->[com.google.android.gms:play-services-ads-lite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/16005d6a249c1738b5035be70ba35ddf/transformed/jetified-play-services-ads-lite-12.0.1/AndroidManifest.xml:33:13-61
+208
+209        <receiver
+209-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:30:9-34:20
+210            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+210-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:31:13-78
+211            android:enabled="true"
+211-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:32:13-35
+212            android:exported="false" >
+212-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:33:13-37
+213        </receiver>
+214
+215        <service
+215-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:36:9-39:40
+216            android:name="com.google.android.gms.analytics.AnalyticsService"
+216-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:37:13-77
+217            android:enabled="true"
+217-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:38:13-35
+218            android:exported="false" />
+218-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:39:13-37
+219        <service
+219-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:40:9-44:72
+220            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+220-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:41:13-80
+221            android:enabled="true"
+221-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:42:13-35
+222            android:exported="false"
+222-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:43:13-37
+223            android:permission="android.permission.BIND_JOB_SERVICE" />
+223-->[com.google.android.gms:play-services-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/36f2022012c8192fa45fd43f53aa8eed/transformed/jetified-play-services-analytics-12.0.1/AndroidManifest.xml:44:13-69
+224
+225        <activity
+225-->[com.google.android.gms:play-services-appinvite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3b1a12efb85e582a719ee42f5c05aef8/transformed/jetified-play-services-appinvite-12.0.1/AndroidManifest.xml:25:9-34:20
+226            android:name="com.google.android.gms.appinvite.PreviewActivity"
+226-->[com.google.android.gms:play-services-appinvite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3b1a12efb85e582a719ee42f5c05aef8/transformed/jetified-play-services-appinvite-12.0.1/AndroidManifest.xml:26:13-76
+227            android:exported="true"
+227-->[com.google.android.gms:play-services-appinvite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3b1a12efb85e582a719ee42f5c05aef8/transformed/jetified-play-services-appinvite-12.0.1/AndroidManifest.xml:27:13-36
+228            android:theme="@style/Theme.AppInvite.Preview" >
+228-->[com.google.android.gms:play-services-appinvite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3b1a12efb85e582a719ee42f5c05aef8/transformed/jetified-play-services-appinvite-12.0.1/AndroidManifest.xml:28:13-59
+229            <intent-filter>
+229-->[com.google.android.gms:play-services-appinvite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3b1a12efb85e582a719ee42f5c05aef8/transformed/jetified-play-services-appinvite-12.0.1/AndroidManifest.xml:29:13-33:29
+230                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+230-->[com.google.android.gms:play-services-appinvite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3b1a12efb85e582a719ee42f5c05aef8/transformed/jetified-play-services-appinvite-12.0.1/AndroidManifest.xml:30:17-90
+230-->[com.google.android.gms:play-services-appinvite:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3b1a12efb85e582a719ee42f5c05aef8/transformed/jetified-play-services-appinvite-12.0.1/AndroidManifest.xml:30:25-87
+231
+232                <category android:name="android.intent.category.DEFAULT" />
+232-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:126:17-76
+232-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:126:27-73
+233            </intent-filter>
+234        </activity>
+235        <activity
+235-->[com.google.android.gms:play-services-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/6c4e6b6c513232c0445adf44762a0707/transformed/jetified-play-services-auth-12.0.1/AndroidManifest.xml:23:9-27:75
+236            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+236-->[com.google.android.gms:play-services-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/6c4e6b6c513232c0445adf44762a0707/transformed/jetified-play-services-auth-12.0.1/AndroidManifest.xml:24:13-93
+237            android:excludeFromRecents="true"
+237-->[com.google.android.gms:play-services-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/6c4e6b6c513232c0445adf44762a0707/transformed/jetified-play-services-auth-12.0.1/AndroidManifest.xml:25:13-46
+238            android:exported="false"
+238-->[com.google.android.gms:play-services-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/6c4e6b6c513232c0445adf44762a0707/transformed/jetified-play-services-auth-12.0.1/AndroidManifest.xml:26:13-37
+239            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+239-->[com.google.android.gms:play-services-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/6c4e6b6c513232c0445adf44762a0707/transformed/jetified-play-services-auth-12.0.1/AndroidManifest.xml:27:13-72
+240        <!--
+241            Service handling Google Sign-In user revocation. For apps that do not integrate with
+242            Google Sign-In, this service will never be started.
+243        -->
+244        <service
+244-->[com.google.android.gms:play-services-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/6c4e6b6c513232c0445adf44762a0707/transformed/jetified-play-services-auth-12.0.1/AndroidManifest.xml:33:9-36:110
+245            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+245-->[com.google.android.gms:play-services-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/6c4e6b6c513232c0445adf44762a0707/transformed/jetified-play-services-auth-12.0.1/AndroidManifest.xml:34:13-89
+246            android:exported="true"
+246-->[com.google.android.gms:play-services-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/6c4e6b6c513232c0445adf44762a0707/transformed/jetified-play-services-auth-12.0.1/AndroidManifest.xml:35:13-36
+247            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+247-->[com.google.android.gms:play-services-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/6c4e6b6c513232c0445adf44762a0707/transformed/jetified-play-services-auth-12.0.1/AndroidManifest.xml:36:13-107
+248
+249        <activity
+249-->[com.google.firebase:firebase-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/e4c334217de0b18d267ce5895956d4db/transformed/jetified-firebase-auth-12.0.1/AndroidManifest.xml:23:9-29:75
+250            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+250-->[com.google.firebase:firebase-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/e4c334217de0b18d267ce5895956d4db/transformed/jetified-firebase-auth-12.0.1/AndroidManifest.xml:24:13-85
+251            android:excludeFromRecents="true"
+251-->[com.google.firebase:firebase-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/e4c334217de0b18d267ce5895956d4db/transformed/jetified-firebase-auth-12.0.1/AndroidManifest.xml:25:13-46
+252            android:exported="true"
+252-->[com.google.firebase:firebase-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/e4c334217de0b18d267ce5895956d4db/transformed/jetified-firebase-auth-12.0.1/AndroidManifest.xml:26:13-36
+253            android:launchMode="singleInstance"
+253-->[com.google.firebase:firebase-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/e4c334217de0b18d267ce5895956d4db/transformed/jetified-firebase-auth-12.0.1/AndroidManifest.xml:27:13-48
+254            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+254-->[com.google.firebase:firebase-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/e4c334217de0b18d267ce5895956d4db/transformed/jetified-firebase-auth-12.0.1/AndroidManifest.xml:28:13-102
+255            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+255-->[com.google.firebase:firebase-auth:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/e4c334217de0b18d267ce5895956d4db/transformed/jetified-firebase-auth-12.0.1/AndroidManifest.xml:29:13-72
+256        <activity
+256-->[com.google.android.gms:play-services-base:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/c9a088c1f5562bdaf09e0416c68b1802/transformed/jetified-play-services-base-12.0.1/AndroidManifest.xml:23:9-26:75
+257            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+257-->[com.google.android.gms:play-services-base:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/c9a088c1f5562bdaf09e0416c68b1802/transformed/jetified-play-services-base-12.0.1/AndroidManifest.xml:24:13-79
+258            android:exported="false"
+258-->[com.google.android.gms:play-services-base:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/c9a088c1f5562bdaf09e0416c68b1802/transformed/jetified-play-services-base-12.0.1/AndroidManifest.xml:25:13-37
+259            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+259-->[com.google.android.gms:play-services-base:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/c9a088c1f5562bdaf09e0416c68b1802/transformed/jetified-play-services-base-12.0.1/AndroidManifest.xml:26:13-72
+260        <!--
+261             FirebaseMessagingService performs security checks at runtime,
+262             no need for explicit permissions despite exported="true"
+263        -->
+264        <service
+264-->[com.google.firebase:firebase-messaging:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/abbd54702ae64359978a96aee4a91620/transformed/jetified-firebase-messaging-12.0.1/AndroidManifest.xml:28:9-34:19
+265            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+265-->[com.google.firebase:firebase-messaging:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/abbd54702ae64359978a96aee4a91620/transformed/jetified-firebase-messaging-12.0.1/AndroidManifest.xml:29:13-82
+266            android:exported="true" >
+266-->[com.google.firebase:firebase-messaging:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/abbd54702ae64359978a96aee4a91620/transformed/jetified-firebase-messaging-12.0.1/AndroidManifest.xml:30:13-36
+267            <intent-filter android:priority="-500" >
+267-->[com.google.firebase:firebase-messaging:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/abbd54702ae64359978a96aee4a91620/transformed/jetified-firebase-messaging-12.0.1/AndroidManifest.xml:31:13-33:29
+267-->[com.google.firebase:firebase-messaging:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/abbd54702ae64359978a96aee4a91620/transformed/jetified-firebase-messaging-12.0.1/AndroidManifest.xml:31:28-51
+268                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+268-->[com.google.firebase:firebase-messaging:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/abbd54702ae64359978a96aee4a91620/transformed/jetified-firebase-messaging-12.0.1/AndroidManifest.xml:32:17-78
+268-->[com.google.firebase:firebase-messaging:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/abbd54702ae64359978a96aee4a91620/transformed/jetified-firebase-messaging-12.0.1/AndroidManifest.xml:32:25-75
+269            </intent-filter>
+270        </service>
+271        <service
+271-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3e4ef6163ba18511747e1986dae10d04/transformed/jetified-play-services-tagmanager-api-12.0.1/AndroidManifest.xml:27:9-30:40
+272            android:name="com.google.android.gms.tagmanager.TagManagerService"
+272-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3e4ef6163ba18511747e1986dae10d04/transformed/jetified-play-services-tagmanager-api-12.0.1/AndroidManifest.xml:28:13-79
+273            android:enabled="true"
+273-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3e4ef6163ba18511747e1986dae10d04/transformed/jetified-play-services-tagmanager-api-12.0.1/AndroidManifest.xml:29:13-35
+274            android:exported="false" />
+274-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3e4ef6163ba18511747e1986dae10d04/transformed/jetified-play-services-tagmanager-api-12.0.1/AndroidManifest.xml:30:13-37
+275
+276        <activity
+276-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3e4ef6163ba18511747e1986dae10d04/transformed/jetified-play-services-tagmanager-api-12.0.1/AndroidManifest.xml:32:9-44:20
+277            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+277-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3e4ef6163ba18511747e1986dae10d04/transformed/jetified-play-services-tagmanager-api-12.0.1/AndroidManifest.xml:33:13-87
+278            android:exported="true"
+278-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3e4ef6163ba18511747e1986dae10d04/transformed/jetified-play-services-tagmanager-api-12.0.1/AndroidManifest.xml:34:13-36
+279            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+279-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3e4ef6163ba18511747e1986dae10d04/transformed/jetified-play-services-tagmanager-api-12.0.1/AndroidManifest.xml:35:13-37
+280            <intent-filter>
+280-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/3e4ef6163ba18511747e1986dae10d04/transformed/jetified-play-services-tagmanager-api-12.0.1/AndroidManifest.xml:36:13-43:29
+281                <data android:scheme="tagmanager.c.edu.ucsd.calab.extrasensory" />
+281-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:128:17-131:81
+281-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:129:21-42
+282
+283                <action android:name="android.intent.action.VIEW" />
+283-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:125:17-69
+283-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:125:25-66
+284
+285                <category android:name="android.intent.category.DEFAULT" />
+285-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:126:17-76
+285-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:126:27-73
+286                <category android:name="android.intent.category.BROWSABLE" />
+286-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:127:17-78
+286-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:127:27-75
+287            </intent-filter>
+288        </activity>
+289
+290        <receiver
+290-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:28:9-32:20
+291            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+291-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:29:13-85
+292            android:enabled="true"
+292-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:30:13-35
+293            android:exported="false" >
+293-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:31:13-37
+294        </receiver>
+295        <receiver
+295-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:33:9-41:20
+296            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+296-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:34:13-100
+297            android:enabled="true"
+297-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:35:13-35
+298            android:exported="true"
+298-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:36:13-36
+299            android:permission="android.permission.INSTALL_PACKAGES" >
+299-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:37:13-69
+300            <intent-filter>
+300-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:38:13-40:29
+301                <action android:name="com.android.vending.INSTALL_REFERRER" />
+301-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:39:17-79
+301-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:39:25-76
+302            </intent-filter>
+303        </receiver>
+304
+305        <service
+305-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:43:9-46:40
+306            android:name="com.google.android.gms.measurement.AppMeasurementService"
+306-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:44:13-84
+307            android:enabled="true"
+307-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:45:13-35
+308            android:exported="false" />
+308-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:46:13-37
+309        <service
+309-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:47:9-51:72
+310            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+310-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:48:13-87
+311            android:enabled="true"
+311-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:49:13-35
+312            android:exported="false"
+312-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:50:13-37
+313            android:permission="android.permission.BIND_JOB_SERVICE" />
+313-->[com.google.firebase:firebase-analytics:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/8ac11c34ec821c02013ed384e9f5d1f5/transformed/jetified-firebase-analytics-12.0.1/AndroidManifest.xml:51:13-69
+314
+315        <receiver
+315-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:35:9-44:20
+316            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+316-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:36:13-78
+317            android:exported="true"
+317-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:37:13-36
+318            android:permission="com.google.android.c2dm.permission.SEND" >
+318-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:38:13-73
+319            <intent-filter>
+319-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:39:13-43:29
+320                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+320-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:40:17-81
+320-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:40:25-78
+321
+322                <category android:name="edu.ucsd.calab.extrasensory" />
+322-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:42:17-61
+322-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:42:27-58
+323            </intent-filter>
+324        </receiver>
+325        <!--
+326             FirebaseInstanceIdService performs security checks at runtime,
+327             no need for explicit permissions despite exported="true"
+328        -->
+329        <service
+329-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:50:9-56:19
+330            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+330-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:51:13-77
+331            android:exported="true" >
+331-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:52:13-36
+332            <intent-filter android:priority="-500" >
+332-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:53:13-55:29
+332-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:53:28-51
+333                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+333-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:54:17-80
+333-->[com.google.firebase:firebase-iid:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/562f51e037fc9badc73e35adf8a0cbee/transformed/jetified-firebase-iid-12.0.1/AndroidManifest.xml:54:25-77
+334            </intent-filter>
+335        </service>
+336
+337        <provider
+337-->[com.google.firebase:firebase-common:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/21e219e40f7ac5421bdcae69ac44fac7/transformed/jetified-firebase-common-12.0.1/AndroidManifest.xml:8:9-12:39
+338            android:name="com.google.firebase.provider.FirebaseInitProvider"
+338-->[com.google.firebase:firebase-common:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/21e219e40f7ac5421bdcae69ac44fac7/transformed/jetified-firebase-common-12.0.1/AndroidManifest.xml:9:13-77
+339            android:authorities="edu.ucsd.calab.extrasensory.firebaseinitprovider"
+339-->[com.google.firebase:firebase-common:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/21e219e40f7ac5421bdcae69ac44fac7/transformed/jetified-firebase-common-12.0.1/AndroidManifest.xml:10:13-72
+340            android:exported="false"
+340-->[com.google.firebase:firebase-common:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/21e219e40f7ac5421bdcae69ac44fac7/transformed/jetified-firebase-common-12.0.1/AndroidManifest.xml:11:13-37
+341            android:initOrder="100" />
+341-->[com.google.firebase:firebase-common:12.0.1] /Users/khang4dang/.gradle/caches/transforms-3/21e219e40f7ac5421bdcae69ac44fac7/transformed/jetified-firebase-common-12.0.1/AndroidManifest.xml:12:13-36
+342
+343        <meta-data
+343-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:6:5-8:65
+344            android:name="com.google.android.gms.version"
+344-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:7:9-54
+345            android:value="@integer/google_play_services_version" />
+345-->/Users/khang4dang/Documents/ExtraSensoryAndroid_Server/app/src/main/AndroidManifest.xml:8:9-62
+346
+347        <provider
+347-->[androidx.emoji2:emoji2:1.0.0] /Users/khang4dang/.gradle/caches/transforms-3/e60c394b36fb41f1ffc4fc0bd8162f1a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+348            android:name="androidx.startup.InitializationProvider"
+348-->[androidx.emoji2:emoji2:1.0.0] /Users/khang4dang/.gradle/caches/transforms-3/e60c394b36fb41f1ffc4fc0bd8162f1a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+349            android:authorities="edu.ucsd.calab.extrasensory.androidx-startup"
+349-->[androidx.emoji2:emoji2:1.0.0] /Users/khang4dang/.gradle/caches/transforms-3/e60c394b36fb41f1ffc4fc0bd8162f1a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+350            android:exported="false" >
+350-->[androidx.emoji2:emoji2:1.0.0] /Users/khang4dang/.gradle/caches/transforms-3/e60c394b36fb41f1ffc4fc0bd8162f1a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+351            <meta-data
+351-->[androidx.emoji2:emoji2:1.0.0] /Users/khang4dang/.gradle/caches/transforms-3/e60c394b36fb41f1ffc4fc0bd8162f1a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+352                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+352-->[androidx.emoji2:emoji2:1.0.0] /Users/khang4dang/.gradle/caches/transforms-3/e60c394b36fb41f1ffc4fc0bd8162f1a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+353                android:value="androidx.startup" />
+353-->[androidx.emoji2:emoji2:1.0.0] /Users/khang4dang/.gradle/caches/transforms-3/e60c394b36fb41f1ffc4fc0bd8162f1a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+354            <meta-data
+354-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+355                android:name="androidx.work.WorkManagerInitializer"
+355-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+356                android:value="androidx.startup" />
+356-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+357            <meta-data
+357-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/khang4dang/.gradle/caches/transforms-3/70166bfdda5a9019e329fe460cd50ae4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+358                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+358-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/khang4dang/.gradle/caches/transforms-3/70166bfdda5a9019e329fe460cd50ae4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+359                android:value="androidx.startup" />
+359-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/khang4dang/.gradle/caches/transforms-3/70166bfdda5a9019e329fe460cd50ae4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+360        </provider>
+361
+362        <service
+362-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+363            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+363-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+364            android:directBootAware="false"
+364-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+365            android:enabled="@bool/enable_system_alarm_service_default"
+365-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+366            android:exported="false" />
+366-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+367        <service
+367-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+368            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+368-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+369            android:directBootAware="false"
+369-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+370            android:enabled="@bool/enable_system_job_service_default"
+370-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+371            android:exported="true"
+371-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+372            android:permission="android.permission.BIND_JOB_SERVICE" />
+372-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+373        <service
+373-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+374            android:name="androidx.work.impl.foreground.SystemForegroundService"
+374-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+375            android:directBootAware="false"
+375-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+376            android:enabled="@bool/enable_system_foreground_service_default"
+376-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+377            android:exported="false" />
+377-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+378
+379        <receiver
+379-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+380            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+380-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+381            android:directBootAware="false"
+381-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+382            android:enabled="true"
+382-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+383            android:exported="false" />
+383-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+384        <receiver
+384-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+385            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+385-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+386            android:directBootAware="false"
+386-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+387            android:enabled="false"
+387-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+388            android:exported="false" >
+388-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+389            <intent-filter>
+389-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+390                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+390-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+390-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+391                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+391-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+391-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+392            </intent-filter>
+393        </receiver>
+394        <receiver
+394-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+395            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+395-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+396            android:directBootAware="false"
+396-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+397            android:enabled="false"
+397-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+398            android:exported="false" >
+398-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+399            <intent-filter>
+399-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+400                <action android:name="android.intent.action.BATTERY_OKAY" />
+400-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+400-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+401                <action android:name="android.intent.action.BATTERY_LOW" />
+401-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+401-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+402            </intent-filter>
+403        </receiver>
+404        <receiver
+404-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+405            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+405-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+406            android:directBootAware="false"
+406-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+407            android:enabled="false"
+407-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+408            android:exported="false" >
+408-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+409            <intent-filter>
+409-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+410                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+410-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+410-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+411                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+411-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+411-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+412            </intent-filter>
+413        </receiver>
+414        <receiver
+414-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+415            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+415-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+416            android:directBootAware="false"
+416-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+417            android:enabled="false"
+417-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+418            android:exported="false" >
+418-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+419            <intent-filter>
+419-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+420                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+420-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+420-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+421            </intent-filter>
+422        </receiver>
+423        <receiver
+423-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+424            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+424-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+425            android:directBootAware="false"
+425-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+426            android:enabled="false"
+426-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+427            android:exported="false" >
+427-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+428            <intent-filter>
+428-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+429                <action android:name="android.intent.action.BOOT_COMPLETED" />
+429-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+429-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+430                <action android:name="android.intent.action.TIME_SET" />
+430-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+430-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+431                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+431-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+431-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+432            </intent-filter>
+433        </receiver>
+434        <receiver
+434-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+435            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+435-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+436            android:directBootAware="false"
+436-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+437            android:enabled="@bool/enable_system_alarm_service_default"
+437-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+438            android:exported="false" >
+438-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+439            <intent-filter>
+439-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+440                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+440-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+440-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+441            </intent-filter>
+442        </receiver>
+443        <receiver
+443-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+444            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+444-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+445            android:directBootAware="false"
+445-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+446            android:enabled="true"
+446-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+447            android:exported="true"
+447-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+448            android:permission="android.permission.DUMP" >
+448-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+449            <intent-filter>
+449-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+450                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+450-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+450-->[androidx.work:work-runtime:2.7.1] /Users/khang4dang/.gradle/caches/transforms-3/95c42730d1dd0e32353697c79c5387d4/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+451            </intent-filter>
+452        </receiver>
+453
+454        <uses-library
+454-->[com.amazonaws:aws-android-sdk-core:2.36.0] /Users/khang4dang/.gradle/caches/transforms-3/449b180110e4d6956e042f25753ef869/transformed/jetified-aws-android-sdk-core-2.36.0/AndroidManifest.xml:11:9-13:40
+455            android:name="org.apache.http.legacy"
+455-->[com.amazonaws:aws-android-sdk-core:2.36.0] /Users/khang4dang/.gradle/caches/transforms-3/449b180110e4d6956e042f25753ef869/transformed/jetified-aws-android-sdk-core-2.36.0/AndroidManifest.xml:12:13-50
+456            android:required="false" />
+456-->[com.amazonaws:aws-android-sdk-core:2.36.0] /Users/khang4dang/.gradle/caches/transforms-3/449b180110e4d6956e042f25753ef869/transformed/jetified-aws-android-sdk-core-2.36.0/AndroidManifest.xml:13:13-37
+457
+458        <service
+458-->[androidx.room:room-runtime:2.2.5] /Users/khang4dang/.gradle/caches/transforms-3/ae62fb63af4a2e7fdb7c868de7a97479/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+459            android:name="androidx.room.MultiInstanceInvalidationService"
+459-->[androidx.room:room-runtime:2.2.5] /Users/khang4dang/.gradle/caches/transforms-3/ae62fb63af4a2e7fdb7c868de7a97479/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+460            android:directBootAware="true"
+460-->[androidx.room:room-runtime:2.2.5] /Users/khang4dang/.gradle/caches/transforms-3/ae62fb63af4a2e7fdb7c868de7a97479/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+461            android:exported="false" />
+461-->[androidx.room:room-runtime:2.2.5] /Users/khang4dang/.gradle/caches/transforms-3/ae62fb63af4a2e7fdb7c868de7a97479/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+462    </application>
+463
+464</manifest>
